@@ -49,7 +49,7 @@ APP CREATED BY: ALEANDRO MINCE
 
 ## Links
 - Github Repository: https://github.com/aletsmc07/work_day_scheduler.github.io
-- Deployed Github Pages link: 
+- Deployed Github Pages link: https://aletsmc07.github.io/work_day_scheduler.github.io/
 
 ## License
 
