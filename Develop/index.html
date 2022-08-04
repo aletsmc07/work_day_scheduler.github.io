@@ -4,21 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +18,76 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Creating timeblocks -->
+      <div id="hour8" class="row time-block">
+        <!-- Div to show the current hour -->
+        <div class="col-md-1 hour">8AM</div>
+        <!-- Place to write the task -->
+        <textarea class="col-md-10 description"></textarea>
+        <!-- Button to save text -->
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <!--Repeated 9 times for each hour -->
+      <div id="hour9" class="row time-block">
+        <div class="col-md-1 hour">9AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour10" class="row time-block">
+        <div class="col-md-1 hour">10AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour11" class="row time-block">
+        <div class="col-md-1 hour">11AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour12" class="row time-block">
+        <div class="col-md-1 hour">12AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour13" class="row time-block">
+        <div class="col-md-1 hour">1PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour14" class="row time-block">
+        <div class="col-md-1 hour">2PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour15" class="row time-block">
+        <div class="col-md-1 hour">3PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour16" class="row time-block">
+        <div class="col-md-1 hour">4PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="hour17" class="row time-block">
+        <div class="col-md-1 hour">5PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
     </div>
 
+    <!--Linking Jquery and moments for JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="../Assets/timeblocks.js"></script>
   </body>
 </html>
